@@ -1,0 +1,13 @@
+name: fragpt
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - ipykernel
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchaudio
+  - torchvision
+  - openbabel
+  - mdanalysis
+  - pymol-open-source
