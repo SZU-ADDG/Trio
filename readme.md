@@ -56,7 +56,7 @@ For conditional constrained generation tasks, navigate to the `constrained_gener
 To generate molecules for specific protein targets, run the `run_mcts.py` script:
 
 ```bash
-python generate.py
+python run_mcts.py
 ```
 
 You can specify different protein targets by modifying the ligand name in the `run_mcts.py` file. The project currently supports the following 5 proteins, which have been validated in the paper:
