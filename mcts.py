@@ -122,7 +122,7 @@ class MolecularProblemState:
         reward = 0
 
 
-        rq_ok = rq > 0
+        rq_ok = rq > 0.5
         rs_ok = rs > (10.0 - 5) / 9  
 
         if rq_ok:
